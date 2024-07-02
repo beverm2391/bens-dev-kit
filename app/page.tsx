@@ -1,9 +1,9 @@
 import AirbnbImageAnimation from "@/core/components/AirbnbImageAnimation";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    </main>
+    <div className="flex-1 w-full flex flex-col gap-20 items-center">
+      <AirbnbImageAnimation />
+    </div>
   );
 }
